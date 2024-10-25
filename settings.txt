@@ -1,0 +1,15 @@
+token: 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
+
+pip install pwntools --
+
+
+git remote set-url origin https://re-zerox3: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@github.com/re-zerox3/PwnTool-Code.git
+git init
+git remote add origin https://github.com/your-username/PwnTools.git
+git add filename //or git add .
+git commit -m "Add initial file(s) to repository"
+git push -u origin main
+
+
+git remote set-url origin https://<YOUR_GITHUB_USERNAME>:<YOUR_TOKEN>@github.com/your-username/PwnTools.git
+
