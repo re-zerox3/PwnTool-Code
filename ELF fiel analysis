@@ -1,0 +1,136 @@
+*Use the following command to see all sections in the binary:
+  -  readelf -S link
+
+*Check Dynamic Section:
+  Look at the dynamic section to see if it has any entries. Run:
+ - readelf -d link
+
+*Inspect GOT Specifically:
+    Even if the binary is stripped, you can directly check for GOT entries:
+  -  objdump -R link
+
+*Check the Import Table:
+-nm -D link
+This might show you the dynamically linked symbols.
+
+*List Sections: First, confirm that the .data section exists:
+--readelf -S link
+
+*Dump the Section: If .data is present, you can dump its contents using the following command:
+--readelf -x .data link
+
+HTB{4_br34k_1n_the3_ch41n_0e343f537ebc}
+
+
+
+Wired Code of Desire
+
+In the glow of screens, where shadows dance,
+Two souls collide in a digital trance.
+A hacker awakens, a wizard with keys,
+Weaving through code like a thief in the breeze.
+
+By day, he serves at a quaint little spot,
+Where dreams are forgotten, and time moves slow.
+With dishes and drinks, he plays the front part,
+But beneath his white apron, beats a restless heart.
+
+As the sun dips low and the stars take flight,
+He sheds his façade and embraces the night.
+Knowledge, his weapon, sharp as a knife,
+He dances with data, igniting his life.
+
+With every keystroke, their secrets unfold,
+Encrypted whispers of dreams untold.
+Addiction to knowledge, a thirst unquenched,
+In the vast web of data, their hearts entrenched.
+
+Through firewalls and proxies, their spirits entwine,
+Sharing secrets and dreams over packets of time.
+But lurking beneath the soft glow of light,
+Is an addiction that pulls him, both bitter and bright.
+
+In forums and chats, he finds solace and spark,
+A connection with others who dwell in the dark.
+Yet one heart stands out in the vast web of souls,
+A beautiful girl who fills in the holes.
+
+Together they plot to take down the walls
+Of websites and servers, where freedom calls.
+With drugs on the table and hackers to meet,
+They scheme in the dim, smoky heat.
+
+In the depths of the net, where shadows collide,
+A hacker finds beauty in love’s wild ride.
+Each line of code, a verse in his song,
+In this virtual world, he feels he belongs.
+
+For love, like a hack, can break through the walls,
+But can also consume, with its siren calls.
+Yet through every challenge, each glitch and fight,
+They find solace together, their screens alight.
+
+His passion for science, for tech’s endless maze,
+Is a flame that consumes him, igniting his gaze.
+In the heart of the net, he seeks to explore,
+A love that transcends, that opens new doors.
+
+So here’s to the hackers, the dreamers by night,
+Indulging in love, knowledge, and the fight.
+With power at their fingertips, hearts set ablaze,
+They code their own futures in a world that amazes.
+
+
+
+
+The Hacker's Paradox
+
+By day, he wears an apron, a server in white,
+Where laughter and chatter fill the soft light.
+With plates in his hands, he navigates the crowd,
+But within him, a tempest is brewing, unbowed.
+
+In the corner of his mind, books whisper sweet lore,
+Of protocols and systems, of knowledge to explore.
+With every cracked spine, he fuels his desire,
+To dance with the data, to play with the fire.
+
+As night falls softly, he sheds his disguise,
+In shadows, he thrives, where the digital lies.
+A hacker awakens, with fingers that fly,
+Debugging the code, as the servers comply.
+
+With adrenaline pumping, he craves the attack,
+A rush in his veins, there's no turning back.
+He circles the networks, a ghost in the stream,
+Chasing down bugs, unraveling dreams.
+
+In forums and chat rooms, with hackers alike,
+They plot and they scheme, in the dim, smoky night.
+For some, it’s for justice, a fight for the weak,
+For others, it’s power, the thrill they all seek.
+
+Addicted to hacking, to chaos and thrills,
+He navigates firewalls, bends protocols to his wills.
+But deeper within, a battle takes place,
+Between love for the code and the heart’s tender grace.
+
+He longs for connection, a heart to ignite,
+Yet addiction whispers, pulling him tight.
+Drugs on the table, they laugh and they scheme,
+In a world full of shadows, they chase the dream.
+
+Each line of code written, a verse of his life,
+In a realm of disruption, love cuts like a knife.
+With every attack launched, a part of him fades,
+As he walks the thin line where virtue degrades.
+
+In the quiet of night, he finds solace in sound,
+The hum of the servers, a comfort profound.
+Yet the clock ticks away, and dawn starts to creep,
+He'll don his façade when the world stirs from sleep.
+
+So here’s to the hackers, the lovers of night,
+Balancing chaos and love in the light.
+With knowledge their weapon and hearts full of fire,
+They code their own futures, as their souls conspire.
